@@ -1108,3 +1108,1638 @@
             font-size: 15px;
 
             line-height: 1.8;
+                    }
+
+
+        /* MAIN CTA */
+
+        .telegram-button {
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            gap: 15px;
+
+            min-height: 62px;
+
+            margin-top: 34px;
+
+            padding:
+                0 31px;
+
+            border:
+                1px solid rgba(255,255,255,.2);
+
+            border-radius: 999px;
+
+            color: #fff;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #ff2929,
+                    #d90000
+                );
+
+            font-size: 13px;
+            font-weight: 950;
+
+            letter-spacing: .07em;
+
+            box-shadow:
+                0 18px 60px rgba(255,0,0,.22),
+                inset 0 1px 0 rgba(255,255,255,.3);
+
+            transition:
+                transform .3s var(--ease),
+                box-shadow .3s var(--ease);
+        }
+
+        .telegram-button:hover {
+
+            transform:
+                translateY(-4px);
+
+            box-shadow:
+                0 25px 80px rgba(255,0,0,.36),
+                0 0 35px rgba(255,0,0,.16),
+                inset 0 1px 0 rgba(255,255,255,.35);
+        }
+
+        .telegram-button:active {
+            transform:
+                translateY(-1px);
+        }
+
+        .telegram-arrow {
+            font-size: 20px;
+            line-height: 1;
+        }
+
+
+        /* META */
+
+        .hero-meta {
+
+            display: flex;
+            align-items: center;
+
+            gap: 12px;
+
+            margin-top: 21px;
+
+            color: #444;
+
+            font-size: 9px;
+            font-weight: 900;
+
+            letter-spacing: .19em;
+
+            text-transform: uppercase;
+        }
+
+        .hero-meta strong {
+            color: var(--red);
+        }
+
+        .meta-dot {
+
+            width: 3px;
+            height: 3px;
+
+            border-radius: 50%;
+
+            background: #3c3c3c;
+        }
+
+
+        /* SCROLL */
+
+        .scroll-indicator {
+
+            position: absolute;
+
+            bottom: 27px;
+            left: 50%;
+
+            display: flex;
+            align-items: center;
+
+            gap: 10px;
+
+            transform:
+                translateX(-50%);
+
+            color: #414141;
+
+            font-size: 9px;
+            font-weight: 900;
+
+            letter-spacing: .18em;
+
+            text-transform: uppercase;
+        }
+
+        .scroll-line {
+
+            width: 30px;
+            height: 1px;
+
+            background:
+                #444;
+        }
+
+
+        /* =====================================================
+           ABOUT
+        ===================================================== */
+
+        .about {
+
+            position: relative;
+
+            padding:
+                125px 0;
+
+            background:
+                #090909;
+
+            border-top:
+                1px solid rgba(255,255,255,.05);
+        }
+
+        .section-header {
+            max-width: 750px;
+        }
+
+        .kicker {
+
+            color:
+                var(--red);
+
+            font-size: 11px;
+            font-weight: 950;
+
+            letter-spacing: .2em;
+
+            text-transform: uppercase;
+        }
+
+        .section-title {
+
+            margin-top: 13px;
+
+            font-size:
+                clamp(43px, 6vw, 76px);
+
+            line-height: .98;
+
+            letter-spacing: -.06em;
+
+            font-weight: 950;
+        }
+
+        .section-title span {
+            color: var(--red);
+        }
+
+        .section-description {
+
+            max-width: 650px;
+
+            margin-top: 24px;
+
+            color: #777;
+
+            font-size: 16px;
+
+            line-height: 1.8;
+        }
+
+
+        /* FEATURE GRID */
+
+        .features {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 15px;
+
+            margin-top: 58px;
+        }
+
+        .feature {
+
+            min-height: 245px;
+
+            padding: 29px;
+
+            border:
+                1px solid rgba(255,255,255,.08);
+
+            border-radius: 22px;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(255,255,255,.035),
+                    rgba(255,255,255,.008)
+                );
+
+            transition:
+                transform .3s var(--ease),
+                border-color .3s ease,
+                background .3s ease;
+        }
+
+        .feature:hover {
+
+            transform:
+                translateY(-6px);
+
+            border-color:
+                rgba(255,21,21,.28);
+
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(255,21,21,.055),
+                    rgba(255,255,255,.01)
+                );
+        }
+
+        .feature-number {
+
+            color: #444;
+
+            font-size: 10px;
+            font-weight: 900;
+
+            letter-spacing: .15em;
+        }
+
+        .feature-icon {
+
+            margin-top: 42px;
+
+            color:
+                var(--red);
+
+            font-size: 27px;
+
+            text-shadow:
+                0 0 25px rgba(255,0,0,.3);
+        }
+
+        .feature h3 {
+
+            margin-top: 13px;
+
+            font-size: 18px;
+            font-weight: 850;
+        }
+
+        .feature p {
+
+            margin-top: 8px;
+
+            color: #686868;
+
+            font-size: 13px;
+
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           HOW TO JOIN
+        ===================================================== */
+
+        .how {
+
+            padding:
+                125px 0;
+
+            background:
+                #050505;
+        }
+
+        .how-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                .85fr 1.15fr;
+
+            gap: 100px;
+
+            align-items: start;
+        }
+
+
+        .steps {
+
+            border-top:
+                1px solid rgba(255,255,255,.08);
+        }
+
+        .step {
+
+            display: grid;
+
+            grid-template-columns:
+                58px 1fr;
+
+            gap: 20px;
+
+            padding:
+                25px 0;
+
+            border-bottom:
+                1px solid rgba(255,255,255,.08);
+        }
+
+        .step-number {
+
+            width: 46px;
+            height: 46px;
+
+            display: grid;
+            place-items: center;
+
+            border:
+                1px solid rgba(255,255,255,.1);
+
+            border-radius: 13px;
+
+            color:
+                var(--red);
+
+            font-size: 10px;
+            font-weight: 950;
+        }
+
+        .step h3 {
+
+            font-size: 18px;
+            font-weight: 850;
+        }
+
+        .step p {
+
+            margin-top: 7px;
+
+            color: #696969;
+
+            font-size: 13px;
+
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           CTA
+        ===================================================== */
+
+        .final {
+
+            padding:
+                0 0 125px;
+
+            background:
+                #050505;
+        }
+
+        .final-box {
+
+            position: relative;
+
+            overflow: hidden;
+
+            padding:
+                70px;
+
+            border:
+                1px solid rgba(255,21,21,.28);
+
+            border-radius: 28px;
+
+            background:
+
+                radial-gradient(
+                    circle at 90% 20%,
+                    rgba(255,0,0,.16),
+                    transparent 32%
+                ),
+
+                linear-gradient(
+                    135deg,
+                    #0d0d0d,
+                    #080808
+                );
+        }
+
+        .final-box::before {
+
+            content: "";
+
+            position: absolute;
+
+            width: 350px;
+            height: 350px;
+
+            right: -150px;
+            bottom: -220px;
+
+            border-radius: 50%;
+
+            border:
+                1px solid rgba(255,0,0,.2);
+
+            box-shadow:
+                0 0 80px rgba(255,0,0,.08);
+        }
+
+        .final-content {
+
+            position: relative;
+
+            z-index: 2;
+
+            max-width: 720px;
+        }
+
+        .final-title {
+
+            margin-top: 12px;
+
+            font-size:
+                clamp(42px, 6vw, 75px);
+
+            line-height: .98;
+
+            letter-spacing: -.055em;
+
+            font-weight: 950;
+        }
+
+        .final-title span {
+            color: var(--red);
+        }
+
+        .final-description {
+
+            max-width: 600px;
+
+            margin-top: 22px;
+
+            color: #777;
+
+            font-size: 15px;
+
+            line-height: 1.8;
+        }
+
+
+        /* =====================================================
+           FOOTER
+        ===================================================== */
+
+        footer {
+
+            padding:
+                32px 0;
+
+            border-top:
+                1px solid rgba(255,255,255,.06);
+
+            background:
+                #030303;
+        }
+
+        .footer-inner {
+
+            display: flex;
+
+            align-items: center;
+            justify-content: space-between;
+
+            gap: 20px;
+        }
+
+        .footer-brand {
+
+            display: flex;
+            align-items: center;
+
+            gap: 9px;
+
+            color: #707070;
+
+            font-size: 10px;
+            font-weight: 900;
+
+            letter-spacing: .14em;
+
+            text-transform: uppercase;
+        }
+
+        .footer-brand span {
+            color: var(--red);
+        }
+
+        .footer-meta {
+
+            color: #3e3e3e;
+
+            font-size: 9px;
+            font-weight: 900;
+
+            letter-spacing: .16em;
+
+            text-transform: uppercase;
+        }
+
+
+        /* =====================================================
+           REVEAL ANIMATION
+        ===================================================== */
+
+        .reveal {
+
+            opacity: 0;
+
+            transform:
+                translateY(25px);
+
+            transition:
+                opacity .8s ease,
+                transform .8s var(--ease);
+        }
+
+        .reveal.visible {
+
+            opacity: 1;
+
+            transform:
+                translateY(0);
+        }
+
+
+        /* =====================================================
+           RESPONSIVE — TABLET
+        ===================================================== */
+
+        @media (max-width: 900px) {
+
+            .nav {
+                gap: 20px;
+            }
+
+            .hero {
+                min-height: auto;
+
+                padding:
+                    150px 0 90px;
+            }
+
+            .hero-content {
+                max-width: 760px;
+            }
+
+            .hero-title {
+                font-size:
+                    clamp(65px, 14vw, 110px);
+            }
+
+            .features {
+                grid-template-columns:
+                    1fr;
+            }
+
+            .feature {
+                min-height: auto;
+            }
+
+            .how-grid {
+                grid-template-columns:
+                    1fr;
+
+                gap: 60px;
+            }
+
+            .final-box {
+                padding:
+                    55px 45px;
+            }
+        }
+
+
+        /* =====================================================
+           RESPONSIVE — MOBILE
+        ===================================================== */
+
+        @media (max-width: 700px) {
+
+            .container {
+                width:
+                    min(
+                        calc(100% - 32px),
+                        var(--container)
+                    );
+            }
+
+
+            /* HEADER */
+
+            .header-inner {
+                min-height: 68px;
+            }
+
+            .nav {
+
+                position: fixed;
+
+                top: 68px;
+                left: 0;
+                right: 0;
+
+                display: flex;
+                flex-direction: column;
+
+                align-items: stretch;
+
+                gap: 0;
+
+                padding:
+                    12px 16px 18px;
+
+                border-bottom:
+                    1px solid rgba(255,255,255,.08);
+
+                background:
+                    rgba(5,5,5,.97);
+
+                backdrop-filter:
+                    blur(20px);
+
+                transform:
+                    translateY(-130%);
+
+                opacity: 0;
+
+                pointer-events: none;
+
+                transition:
+                    transform .35s var(--ease),
+                    opacity .25s ease;
+            }
+
+            .nav.open {
+
+                transform:
+                    translateY(0);
+
+                opacity: 1;
+
+                pointer-events: auto;
+            }
+
+            .nav a {
+
+                display: block;
+
+                padding:
+                    15px 10px;
+
+                border-bottom:
+                    1px solid rgba(255,255,255,.05);
+
+                font-size: 13px;
+            }
+
+            .header-telegram {
+
+                margin-top: 7px;
+
+                text-align: center;
+
+                border:
+                    1px solid rgba(255,21,21,.28) !important;
+
+                background:
+                    rgba(255,21,21,.08) !important;
+            }
+
+            .menu-button {
+                display: block;
+            }
+
+
+            /* HERO */
+
+            .hero {
+
+                padding:
+                    125px 0 75px;
+            }
+
+            .hero-glow {
+
+                width: 330px;
+                height: 330px;
+
+                right: -170px;
+                top: 25%;
+            }
+
+            .status {
+
+                font-size: 9px;
+
+                padding:
+                    8px 12px;
+            }
+
+            .overline {
+
+                margin-top: 27px;
+
+                font-size: 10px;
+            }
+
+            .hero-title {
+
+                margin-top: 13px;
+
+                font-size:
+                    clamp(58px, 18vw, 92px);
+
+                line-height: .84;
+            }
+
+            .hero-title .outline {
+
+                -webkit-text-stroke:
+                    1.5px var(--red);
+            }
+
+            .hero-description {
+
+                margin-top: 28px;
+
+                font-size: 15px;
+
+                line-height: 1.75;
+            }
+
+            .telegram-button {
+
+                width: 100%;
+
+                min-height: 60px;
+
+                margin-top: 27px;
+            }
+
+            .hero-meta {
+
+                margin-top: 18px;
+
+                font-size: 8px;
+            }
+
+            .scroll-indicator {
+                display: none;
+            }
+
+
+            /* SECTIONS */
+
+            .about,
+            .how {
+
+                padding:
+                    90px 0;
+            }
+
+            .section-title {
+
+                font-size:
+                    clamp(41px, 13vw, 62px);
+            }
+
+            .section-description {
+
+                font-size: 14px;
+            }
+
+            .features {
+
+                gap: 11px;
+
+                margin-top: 40px;
+            }
+
+            .feature {
+
+                padding: 25px;
+
+                border-radius: 19px;
+            }
+
+            .feature-icon {
+                margin-top: 35px;
+            }
+
+
+            /* HOW */
+
+            .how-grid {
+                gap: 45px;
+            }
+
+            .step {
+
+                grid-template-columns:
+                    48px 1fr;
+
+                gap: 14px;
+
+                padding:
+                    22px 0;
+            }
+
+            .step-number {
+
+                width: 42px;
+                height: 42px;
+            }
+
+            .step h3 {
+                font-size: 16px;
+            }
+
+            .step p {
+                font-size: 12px;
+            }
+
+
+            /* FINAL */
+
+            .final {
+                padding-bottom:
+                    90px;
+            }
+
+            .final-box {
+
+                padding:
+                    42px 25px;
+
+                border-radius:
+                    22px;
+            }
+
+            .final-title {
+
+                font-size:
+                    clamp(40px, 12vw, 58px);
+            }
+
+            .final-description {
+                font-size: 14px;
+            }
+
+
+            /* FOOTER */
+
+            .footer-inner {
+
+                flex-direction: column;
+
+                align-items: flex-start;
+
+                gap: 10px;
+            }
+        }
+
+
+        /* =====================================================
+           REDUCED MOTION
+        ===================================================== */
+
+        @media (prefers-reduced-motion: reduce) {
+
+            html {
+                scroll-behavior: auto;
+            }
+
+            *,
+            *::before,
+            *::after {
+
+                animation-duration:
+                    .01ms !important;
+
+                animation-iteration-count:
+                    1 !important;
+
+                transition-duration:
+                    .01ms !important;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="noise"></div>
+
+
+    <!-- =====================================================
+         HEADER
+    ===================================================== -->
+
+    <header class="header">
+
+        <div class="container header-inner">
+
+            <a
+                href="#top"
+                class="brand"
+                aria-label="Polska Pokusa — strona główna"
+            >
+
+                <span class="brand-dot"></span>
+
+                <span>Polska Pokusa</span>
+
+            </a>
+
+
+            <nav
+                class="nav"
+                id="mainNav"
+                aria-label="Główna nawigacja"
+            >
+
+                <a href="#about">
+                    O kanale
+                </a>
+
+                <a href="#how">
+                    Jak dołączyć
+                </a>
+
+                <a
+                    class="header-telegram"
+                    href="https://t.me/szpagatkaa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Telegram ↗
+                </a>
+
+            </nav>
+
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                type="button"
+                aria-label="Otwórz menu"
+                aria-expanded="false"
+                aria-controls="mainNav"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <main id="top">
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero">
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-glow"></div>
+
+
+            <div class="container">
+
+                <div class="hero-content reveal">
+
+                    <div class="status">
+
+                        <span class="status-dot"></span>
+
+                        Polska społeczność
+
+                        <span>•</span>
+
+                        18+
+
+                    </div>
+
+
+                    <div class="overline">
+
+                        <span class="pepper">🌶️</span>
+
+                        Tylko dla dorosłych
+
+                    </div>
+
+
+                    <h1 class="hero-title">
+
+                        <span class="solid">
+                            POLSKA
+                        </span>
+
+                        <span class="outline">
+                            POKUSA
+                        </span>
+
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        Polska społeczność 18+ na Telegramie.
+                        Jedno miejsce dla osób, które chcą
+                        dołączyć do naszej społeczności.
+
+                    </p>
+
+
+                    <!-- JEDYNY GŁÓWNY CTA -->
+
+                    <a
+
+    
+
+                        class="telegram-button"
+                        href="https://t.me/szpagatkaa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+
+                        <span>
+                            DOŁĄCZ NA TELEGRAMIE
+                        </span>
+
+                        <span class="telegram-arrow">
+                            ↗
+                        </span>
+
+                    </a>
+
+
+                    <div class="hero-meta">
+
+                        <strong>18+</strong>
+
+                        <span class="meta-dot"></span>
+
+                        <span>POLSKA</span>
+
+                        <span class="meta-dot"></span>
+
+                        <span>TELEGRAM</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+
+                <span class="scroll-line"></span>
+
+                Przewiń
+
+                <span class="scroll-line"></span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section
+            class="about"
+            id="about"
+        >
+
+            <div class="container">
+
+                <div class="section-header reveal">
+
+                    <div class="kicker">
+                        🌶️ Polska Pokusa
+                    </div>
+
+                    <h2 class="section-title">
+                        Jedno miejsce.
+                        <br>
+                        <span>Polska Pokusa.</span>
+                    </h2>
+
+                    <p class="section-description">
+
+                        Polska Pokusa to polska społeczność
+                        18+ działająca na Telegramie.
+                        Jeśli szukasz miejsca stworzonego
+                        dla dorosłych użytkowników,
+                        możesz dołączyć bezpośrednio
+                        przez Telegram.
+
+                    </p>
+
+                </div>
+
+
+                <div class="features">
+
+
+                    <article class="feature reveal">
+
+                        <div class="feature-number">
+                            01 / COMMUNITY
+                        </div>
+
+                        <div class="feature-icon">
+                            +
+                        </div>
+
+                        <h3>
+                            Polska społeczność
+                        </h3>
+
+                        <p>
+                            Jedno miejsce skupiające
+                            polskich użytkowników
+                            zainteresowanych społecznością 18+.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature reveal">
+
+                        <div class="feature-number">
+                            02 / TELEGRAM
+                        </div>
+
+                        <div class="feature-icon">
+                            ↗
+                        </div>
+
+                        <h3>
+                            Wszystko na Telegramie
+                        </h3>
+
+                        <p>
+                            Do społeczności przechodzisz
+                            bezpośrednio przez Telegram.
+                            Bez zbędnych formularzy
+                            i rejestracji na stronie.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature reveal">
+
+                        <div class="feature-number">
+                            03 / 18+
+                        </div>
+
+                        <div class="feature-icon">
+                            18
+                        </div>
+
+                        <h3>
+                            Tylko dla dorosłych
+                        </h3>
+
+                        <p>
+                            Społeczność jest przeznaczona
+                            wyłącznie dla osób,
+                            które ukończyły 18 lat.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             HOW TO JOIN
+        ================================================== -->
+
+        <section
+            class="how"
+            id="how"
+        >
+
+            <div class="container">
+
+                <div class="how-grid">
+
+
+                    <div class="section-header reveal">
+
+                        <div class="kicker">
+                            Jak dołączyć
+                        </div>
+
+                        <h2 class="section-title">
+                            Prosto.
+                            <br>
+                            Bez <span>zbędnych kroków.</span>
+                        </h2>
+
+                        <p class="section-description">
+
+                            Nie musisz zakładać konta
+                            na naszej stronie.
+                            Całość odbywa się bezpośrednio
+                            na Telegramie.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="steps">
+
+
+                        <div class="step reveal">
+
+                            <div class="step-number">
+                                01
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Kliknij przycisk Telegram
+                                </h3>
+
+                                <p>
+                                    Przejdź bezpośrednio
+                                    do społeczności Polska Pokusa.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="step reveal">
+
+                            <div class="step-number">
+                                02
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Otwórz Telegram
+                                </h3>
+
+                                <p>
+                                    Link otworzy stronę
+                                    społeczności lub aplikację Telegram,
+                                    jeśli masz ją zainstalowaną.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="step reveal">
+
+                            <div class="step-number">
+                                03
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Dołącz do społeczności
+                                </h3>
+
+                                <p>
+                                    Gotowe. Dalsze informacje
+                                    znajdziesz już bezpośrednio
+                                    na Telegramie.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             FINAL CTA
+        ================================================== -->
+
+        <section class="final">
+
+            <div class="container">
+
+                <div class="final-box reveal">
+
+                    <div class="final-content">
+
+                        <div class="kicker">
+                            TELEGRAM • 18+
+                        </div>
+
+                        <h2 class="final-title">
+
+                            Gotowy?
+
+                            <span>
+                                Dołącz.
+                            </span>
+
+                        </h2>
+
+                        <p class="final-description">
+
+                            Masz ukończone 18 lat?
+                            Przejdź na Telegram i sprawdź
+                            społeczność Polska Pokusa.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ===================================================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-inner">
+
+                <div class="footer-brand">
+
+                    <span>🌶️</span>
+
+                    Polska Pokusa
+
+                </div>
+
+                <div class="footer-meta">
+
+                    18+ • Polska • Telegram
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ===================================================== -->
+
+    <script>
+
+        /* =====================================================
+           MOBILE MENU
+        ===================================================== */
+
+        const menuButton =
+            document.getElementById("menuButton");
+
+        const mainNav =
+            document.getElementById("mainNav");
+
+
+        menuButton.addEventListener(
+            "click",
+            () => {
+
+                const isOpen =
+                    mainNav.classList.toggle("open");
+
+                menuButton.classList.toggle(
+                    "active",
+                    isOpen
+                );
+
+                menuButton.setAttribute(
+                    "aria-expanded",
+                    String(isOpen)
+                );
+
+                menuButton.setAttribute(
+                    "aria-label",
+                    isOpen
+                        ? "Zamknij menu"
+                        : "Otwórz menu"
+                );
+
+                document.body.classList.toggle(
+                    "menu-open",
+                    isOpen
+                );
+
+            }
+        );
+
+
+        /* =====================================================
+           CLOSE MOBILE MENU AFTER CLICK
+        ===================================================== */
+
+        const navLinks =
+            mainNav.querySelectorAll("a");
+
+        navLinks.forEach(
+            (link) => {
+
+                link.addEventListener(
+                    "click",
+                    () => {
+
+                        mainNav.classList.remove("open");
+
+                        menuButton.classList.remove(
+                            "active"
+                        );
+
+                        menuButton.setAttribute(
+                            "aria-expanded",
+                            "false"
+                        );
+
+                        menuButton.setAttribute(
+                            "aria-label",
+                            "Otwórz menu"
+                        );
+
+                        document.body.classList.remove(
+                            "menu-open"
+                        );
+
+                    }
+                );
+
+            }
+        );
+
+
+        /* =====================================================
+           REVEAL ON SCROLL
+        ===================================================== */
+
+        const revealElements =
+            document.querySelectorAll(".reveal");
+
+
+        const revealObserver =
+            new IntersectionObserver(
+                (entries) => {
+
+                    entries.forEach(
+                        (entry) => {
+
+                            if (
+                                entry.isIntersecting
+                            ) {
+
+                                entry.target.classList.add(
+                                    "visible"
+                                );
+
+                                revealObserver.unobserve(
+                                    entry.target
+                                );
+
+                            }
+
+                        }
+                    );
+
+                },
+                {
+                    threshold: 0.12
+                }
+            );
+
+
+        revealElements.forEach(
+            (element) => {
+
+                revealObserver.observe(
+                    element
+                );
+
+            }
+        );
+
+
+        /* =====================================================
+           HEADER SCROLL EFFECT
+        ===================================================== */
+
+        const header =
+            document.querySelector(".header");
+
+
+        window.addEventListener(
+            "scroll",
+            () => {
+
+                if (
+                    window.scrollY > 20
+                ) {
+
+                    header.style.background =
+                        "rgba(5,5,5,.90)";
+
+                } else {
+
+                    header.style.background =
+                        "rgba(5,5,5,.72)";
+
+                }
+
+            },
+            {
+                passive: true
+            }
+        );
+
+    </script>
+
+</body>
+</html>
